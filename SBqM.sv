@@ -1,4 +1,4 @@
-module SBqM #(parameter N = 3, clk_per = 20) (
+module SBqM #(parameter N = 3) (
     input logic int_start, int_end,         // Interruption signals of the start and the end of the queue.
                 reset_n, clk,
     output logic full, empty,               // The empty and full flags that reflect the status of the queue.
